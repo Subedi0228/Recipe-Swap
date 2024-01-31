@@ -19,3 +19,7 @@ We follow subject-first style of commit messages because it helps developers fin
 For example: instead of "fixed recipe-search", you could say "recipe-search is fixed" which would make finding the specific commit about recipe-search easier because many things could have been fixed.
 
 If there is a version change, be explicit about both versions, i.e: "package x increased from 1.9.2 to 2.0"
+
+## Component Convention
+
+When creating new components, place the jsx inside their own directory within /frontend/components so that we can include any style sheet (scss) or other static files that the component uses inside that folder.
