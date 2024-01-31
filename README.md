@@ -6,10 +6,16 @@ A website to share and view recipes. It uses AI to fill/validate nutritional inf
 
 If you've cloned or downloaded this project repository and the `node_modules` directory is not present due to it being excluded in the `.gitignore` file, you can follow these steps to install the required Node.js modules:
 
-1. **Prerequisites:** Ensure that you have Node.js and npm (Node Package Manager) installed on your local machine. You can download and install them from the official [Node.js website](https://nodejs.org/).
+**Prerequisites** Ensure that you have Node.js and npm installed on your local machine. [Node.js website](https://nodejs.org/).
 
-2. **Navigate to Project Directory:** Open your terminal or command prompt and navigate to the /frontend for the frontend of the project, and /backend for the backend of the project.
+**Navigate to Project Directory** Open your terminal or command prompt and navigate to the /frontend or /backend for the respective ends.
 
-3. **Install Dependencies:** Run the following command on both ends to install the necessary dependencies listed in the `package.json` file:
+**Install Dependencies** Run the command "npm install" on both ends to install the necessary dependencies listed in the `package.json` file:
 
-   npm install
+## Commit Messages
+
+We follow subject-first style of commit messages because it helps developers find commits that correspond to the subject of what they're looking for more easily.
+
+For example: instead of "fixed recipe-search", you could say "recipe-search is fixed" which would make finding the specific commit about recipe-search easier because many things could have been fixed.
+
+If there is a version change, be explicit about both versions, i.e: "package x increased from 1.9.2 to 2.0"
